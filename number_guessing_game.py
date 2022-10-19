@@ -19,7 +19,9 @@ def main():
         print("You guessed the correct number!")
 
     else:
-        print("You guessed the wrong number! Try again!")
+        print(
+            "You guessed the wrong number! The number was " + str(random_variable) + "."
+        )
 
     print("\nDone.")
 
